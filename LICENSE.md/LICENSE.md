@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Home page</title>
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/fontawesome-all.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet"> 
+
+</head>
+<body>
+<header>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<div class="container">
+  <a class="navbar-brand mr-5" href="#">E3</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse ml-5 navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Contact Us<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link mx-3" href="#">Help</a>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          English
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item " href="#">العربيه</a>
+          <a class="dropdown-item" href="#">Another</a>
+          <a class="dropdown-item" href="#">Something</a>
+        </div><!--dropdown-->
+      </li>
+    </ul>
+  </div><!--collapse-->
+</div><!-- container -->
+</nav><!--navbar--> 
+
+
+<section id="hedar" class="hedar col-lg-12 mt-5 ">
+
+<div class="row">
+<div class="col-sm-4">
+<div class="card text-center card-body border-dark mx-5">
+<h2 class=" top-text">Sing Up Today Free</h2>
+
+
+<form class="w-75 my-4 text-center">
+<div class="form-group card ">
+    <input type="name" class="form-control box w-100" id="exampleInputPassword1" placeholder="Enter name">
+  </div>
+
+  <div class="form-group card">
+    <input type="email" class="form-control box w-100" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+  </div>
+
+  <div class="form-group card">
+    <input type="password" class="form-control box w-100 " id="exampleInputPassword1" placeholder="Password">
+  </div>
+
+<div class="form-group card">
+    <input type="password" class="form-control box w-100 " id="exampleInputPassword1" placeholder="confirm Password">
+  </div>
+
+  <div class="form-check ml-1 ">
+    <input type="checkbox" class="form-check-input " id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+
+  <button type="submit" class="btn btn-dark w-50 mt-3 ml-5">Sing up</button>
+</form>
+
+</div><!--card-->
+</div><!--left-->
+
+
+<div class="col-sm-7">
+
+<h1 class="text-box text-center lead display-4 ">E3trafat </h1>
+
+<h2 class=" text-center text-box text-secondary">إفتح شبابيك قلبك وخرج إللي جواها</h2>
+
+
+  <form class="form-inline search  ">
+    <input class="form-control w-75 mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn bttn btn-outline-dark mr-3 ml-1 my-sm-0" type="submit">Search</button>
+  </form>
+
+    <button type="submit"  value="Show Box"  data-toggle="modal" data-target="#loginbox"
+                                                         class="btn bttn btn-dark w-25 mt-3m ">Log in</button>
+
+<div class="modal fade" id="loginbox">
+<div class="modal-dialog">
+<div class="modal-content bg-dark">
+
+<h2 class="modal-title text-white top-text text-center my-3">Pleas Enter your Data</h2>
+
+<form class="w-75 my-4 text-center">
+<div class="form-group ">
+    <input type="name" class="form-control box w-100" id="exampleInputPassword1" placeholder="Enter name">
+  </div>
+
+  <div class="form-group ">
+    <input type="password" class="form-control box w-100 " id="exampleInputPassword1" placeholder="Password">
+  </div>
+
+  <div class="form-check ml-1 ">
+    <input type="checkbox" class="form-check-input " id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+
+  <button type="submit" class="btn bttn btn-dark w-50 mt-3 ml-5">Login</button>
+</form>
+
+</div><!--content-->
+</div><!--dialog-->
+</div><!--modal fade-->
+
+</div><!--right-->
+
+</div><!--row-->
+</section><!--hedar-->
+</header>
+
+
+<footer id="main-footer" class=" ">
+<div class="container">
+<div class="row">
+<div class="col-sm-8 pt-5">
+<a target="_blank" href="#"><i class=" btn-link btn-lg fab fa-facebook-square"></i></a>
+<a target="_blank" href="#"><i class=" btn-link btn-lg fab fa-twitter-square"></i></a>
+<a target="_blank" href="#"><i class=" btn-link btn-lg fab fa-instagram"></i></a>
+</div>
+<div class="col-sm-4">
+<p class="lead copyright">copyright&copy;2018 "E3trafat" by <strong>Aya Sobhy</strong> </p>
+
+</div><!--right-->
+</div><!--row-->
+</div><!--container-->
+</footer>
+
+
+ <script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+  
+</body>
+</html>
