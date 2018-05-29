@@ -1,0 +1,10 @@
+#hedar{background:url(../image/hedar.jpeg);background-repeat: no-repeat;background-size: cover;background-attachment: fixed; background-position: top;min-height: 100vh; color: white}
+#hedar{padding-top: 20vh;}
+.top-text{font-family:Chaparral Pro Light Italic; font-size: 25px}
+.card{background-color: #0000;}
+.box{border-radius:20px; border-color: #950cae;margin-left: 5vh}
+.text-box{font-family: Asmaa Font Regular ;margin-left: 40vh;margin-top: 5vh;}
+.search{margin-left: 45vh;margin-top: 10vh;margin-bottom: 10vh;}
+.bttn{border-radius:10px;border-color: #950cae;margin-left: 60vh;}
+#main-footer{background: linear-gradient(to bottom, #710984,#8424a8,#710984);min-height: 20vh;}
+.copyright{font-size: 15px;margin-top: 15vh;margin-left: 10vh}
